@@ -15,21 +15,19 @@
  */
 
 /*
-    Version 2023.03.05
+    Version 2023.03.05b
  */
-
-
 
 body {
 	font-family: "Trebuchet MS", Verdana, "Lucida Sans", Arial, Geneva, Helvetica, Helv, "Myriad Web", Syntax, sans-serif;
     font-size: 18px;
-    text-align: justify;
-    text-justify: inter-word;
+    text-align: left;
     line-height: 1.69;
     max-width: 40em;
     margin: 32px auto;
     color: #454545;
     background: #f2f2f2;
+    padding: 2em;
 }
 
 h1, h2, h3 {
@@ -45,6 +43,11 @@ h2, h3 {
     color: #707070;
 	border: 1px solid #cccccc;
 	border-width: 0px 0px 1px 0px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 a {
