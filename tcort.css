@@ -15,7 +15,7 @@
  */
 
 /*
-    Version 2023.03.05b
+    Version 2023.03.05c
  */
 
 body {
@@ -27,7 +27,8 @@ body {
     margin: 32px auto;
     color: #454545;
     background: #f2f2f2;
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 h1, h2, h3 {
