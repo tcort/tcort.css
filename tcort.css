@@ -88,7 +88,6 @@ tbody tr:hover {
 }
 
 input[type=file],
-input[type=email],
 input[type=text],
 input[type=button],
 input[type=submit],
@@ -106,9 +105,10 @@ select {
     display: none;
 }
 
-@media print {
-    body {
-        max-width: none;
-    }
+progress {
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25) inset;
+    height: 20px;
+    position: relative;
+    display: block;
 }
-
