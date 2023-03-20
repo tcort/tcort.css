@@ -87,6 +87,8 @@ tbody tr:hover {
     background-color: #aaaaaa;
 }
 
+input[type=file],
+input[type=email],
 input[type=text],
 input[type=button],
 input[type=submit],
