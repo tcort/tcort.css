@@ -15,7 +15,7 @@
  */
 
 /*
-    Version 2023.04.18a
+    Version 2023.04.19a
  */
 
 body {
@@ -161,4 +161,16 @@ progress {
     body {
         max-width: none;
     }
+}
+
+.card {
+    color: white;
+    padding: 10px;
+}
+
+.cards {
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
