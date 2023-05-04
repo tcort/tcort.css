@@ -15,7 +15,7 @@
  */
 
 /*
-    Version 2023.05.03a
+    Version 2023.05.04a
  */
 
 body {
@@ -100,6 +100,8 @@ tbody tr:hover {
     background-color: #aaaaaa;
 }
 
+input[type=url],
+input[type=email],
 input[type=file],
 input[type=text],
 input[type=button],
