@@ -11,6 +11,10 @@ $(function () {
     });
 
     $('.navtab').first().click();
+
+    $(".clickable-row").click(function() {
+        window.location = $(this).data("href");
+    });
 });
 
 function encodeHtmlEntities(str) {
