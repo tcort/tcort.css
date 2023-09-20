@@ -15,7 +15,7 @@
  */
 
 /*
-    Version 2023.05.04a
+    Version 2023.09.20a
  */
 
 body {
@@ -190,6 +190,14 @@ progress {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.nowrap {
+    white-space: nowrap;
+}
+
+.center {
+    text-align: center;
+}
+
 .spinner {
     border: 2.25em solid #aaaaaa;
     border-top: 2.25em solid #f2f2f2;
@@ -204,3 +212,4 @@ progress {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
