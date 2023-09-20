@@ -101,6 +101,7 @@ tbody tr:hover {
 }
 
 input[type=url],
+input[type=number],
 input[type=email],
 input[type=file],
 input[type=text],
