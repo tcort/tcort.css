@@ -15,7 +15,7 @@
  */
 
 /*
-    Version 2023.09.21a
+    Version 2023.09.30a
  */
 
 body {
@@ -31,13 +31,18 @@ body {
     padding-right: 2em;
 }
 
-header, section, footer {
+header, section {
     background: #ffffff;
     color: #454545;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     border: 1px solid;
+}
+
+footer {
+    color: #454545;
+    margin-top: 20px;
 }
 
 footer p {
