@@ -15,7 +15,7 @@
  */
 
 /*
-    Version 2023.09.30a
+    Version 2023.09.30b
  */
 
 body {
@@ -143,6 +143,33 @@ progress {
     height: 20px;
     position: relative;
     display: block;
+}
+
+nav {
+    padding: 0px 0px 10px 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+nav ul li a:hover  {
+    background: #ffffff;
+    color: #454545;
 }
 
 .navtab {
