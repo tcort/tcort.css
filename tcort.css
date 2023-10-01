@@ -15,7 +15,7 @@
  */
 
 /*
-    Version 2023.10.01a
+    Version 2023.10.01b
  */
 
 body {
@@ -52,6 +52,7 @@ footer p {
 
 h1, h2, h3 {
     line-height: 1.2345;
+    padding-top: 10px;
 }
 
 h1 {
